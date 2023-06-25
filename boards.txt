@@ -1,0 +1,213 @@
+#  (c)Copyright megawin Technology Co., Ltd. All rights reserved.
+#  You may use this file as-is or modify it according to the needs of your
+#  project. Distribution of this file (unmodified or modified) is not
+#  permitted. megawin permit registered users the rights to distribute
+#  the assembled, compiled & linked contents of this file as part of
+#  an application binary file, provided that it is built using
+#  the megawin or oteher GUN toolchain.
+# Megawin MG32F02U128
+# ---------------------------------------
+
+
+# Megawin TH244A
+# ---------------------------------------
+# ================================================================================
+MG32x02z_TH244A_native.name=Megawin TH244A
+
+MG32x02z_TH244A_native.vid.0=0x2341
+MG32x02z_TH244A_native.pid.0=0x804e
+MG32x02z_TH244A_native.vid.1=0x2341
+MG32x02z_TH244A_native.pid.1=0x004e
+MG32x02z_TH244A_native.vid.2=0x2341
+MG32x02z_TH244A_native.pid.2=0x824e
+MG32x02z_TH244A_native.vid.3=0x2341
+MG32x02z_TH244A_native.pid.3=0x024e
+MG32x02z_TH244A_native.upload_port.0.vid=0x2341
+MG32x02z_TH244A_native.upload_port.0.pid=0x804e
+MG32x02z_TH244A_native.upload_port.1.vid=0x2341
+MG32x02z_TH244A_native.upload_port.1.pid=0x004e
+MG32x02z_TH244A_native.upload_port.2.vid=0x2341
+MG32x02z_TH244A_native.upload_port.2.pid=0x824e
+MG32x02z_TH244A_native.upload_port.3.vid=0x2341
+MG32x02z_TH244A_native.upload_port.3.pid=0x024e
+MG32x02z_TH244A_native.upload_port.4.board=TH244A
+
+MG32x02z_TH244A_native.upload.tool=Megawin_ArduinoISP
+MG32x02z_TH244A_native.upload.tool.default=Megawin_ArduinoISP
+MG32x02z_TH244A_native.upload.tool.network=arduino_ota
+MG32x02z_TH244A_native.upload.protocol=sam-ba
+MG32x02z_TH244A_native.upload.maximum_size=260096
+MG32x02z_TH244A_native.upload.maximum_data_size=32768
+
+#MG32x02z_TH244A_native.upload.use_1200bps_touch=true
+#MG32x02z_TH244A_native.upload.use_115200bps_touch=true
+
+MG32x02z_TH244A_native.upload.wait_for_upload_port=true
+MG32x02z_TH244A_native.upload.native_usb=true
+# ================================================================================
+
+MG32x02z_TH244A_native.build.mcu=cortex-m0
+MG32x02z_TH244A_native.build.emu.mcu=MG32F02U128
+MG32x02z_TH244A_native.build.f_cpu=48000000L
+MG32x02z_TH244A_native.build.usb_product="Megawin"
+MG32x02z_TH244A_native.build.usb_manufacturer="Megawin Technology LLC"
+MG32x02z_TH244A_native.build.board=MG32x02z_TH244A_native
+MG32x02z_TH244A_native.build.core=arduino
+MG32x02z_TH244A_native.build.extra_flags=-mthumb -DMG32F02U128
+MG32x02z_TH244A_native.build.ldscript=linker_scripts/gcc/MG32x02z_FLASH.LD
+MG32x02z_TH244A_native.build.openocdscript=openocd_scripts/arduino_zero.cfg
+MG32x02z_TH244A_native.build.variant=TH244A
+MG32x02z_TH244A_native.build.cmsis_lib_gcc=arm_cortexM0l_math
+MG32x02z_TH244A_native.build.startup_file=-D{{build.system.path}/Drivers/CMSIS/Device/MG32F02U128/startup_MG32x02z_GCC.S
+MG32x02z_TH244A_native.build.variant_system_lib=
+MG32x02z_TH244A_native.build.vid=0x0E6A
+MG32x02z_TH244A_native.build.pid=0x032F
+
+# arduino_zero_native.bootloader.tool=openocd
+# arduino_zero_native.bootloader.tool.default=openocd
+# arduino_zero_native.bootloader.file=zero/samd21_sam_ba.bin
+
+#MG32x02z_TH244A_native.bootloader.tool=
+#MG32x02z_TH244A_native.bootloader.tool.default=
+#MG32x02z_TH244A_native.bootloader.file=
+# ================================================================================
+
+
+
+
+
+
+
+
+
+# Megawin MG32F02U128_LQFP64
+# ---------------------------------------
+# ================================================================================
+MG32x02z_MG32F02U128_LQFP64_native.name=Megawin MG32F02U128_LQFP64
+
+MG32x02z_MG32F02U128_LQFP64_native.vid.0=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.pid.0=0x804e
+MG32x02z_MG32F02U128_LQFP64_native.vid.1=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.pid.1=0x004e
+MG32x02z_MG32F02U128_LQFP64_native.vid.2=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.pid.2=0x824e
+MG32x02z_MG32F02U128_LQFP64_native.vid.3=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.pid.3=0x024e
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.0.vid=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.0.pid=0x804e
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.1.vid=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.1.pid=0x004e
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.2.vid=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.2.pid=0x824e
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.3.vid=0x2341
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.3.pid=0x024e
+MG32x02z_MG32F02U128_LQFP64_native.upload_port.4.board=MG32F02U128_LQFP64
+
+MG32x02z_MG32F02U128_LQFP64_native.upload.tool=Megawin_ArduinoISP
+MG32x02z_MG32F02U128_LQFP64_native.upload.tool.default=Megawin_ArduinoISP
+MG32x02z_MG32F02U128_LQFP64_native.upload.tool.network=arduino_ota
+MG32x02z_MG32F02U128_LQFP64_native.upload.protocol=sam-ba
+MG32x02z_MG32F02U128_LQFP64_native.upload.maximum_size=260096
+MG32x02z_MG32F02U128_LQFP64_native.upload.maximum_data_size=32768
+
+#MG32x02z_MG32F02U128_LQFP64_native.upload.use_1200bps_touch=true
+#MG32x02z_MG32F02U128_LQFP64_native.upload.use_115200bps_touch=true
+
+MG32x02z_MG32F02U128_LQFP64_native.upload.wait_for_upload_port=true
+MG32x02z_MG32F02U128_LQFP64_native.upload.native_usb=true
+# ================================================================================
+
+MG32x02z_MG32F02U128_LQFP64_native.build.mcu=cortex-m0
+MG32x02z_MG32F02U128_LQFP64_native.build.emu.mcu=MG32F02U128
+MG32x02z_MG32F02U128_LQFP64_native.build.f_cpu=48000000L
+MG32x02z_MG32F02U128_LQFP64_native.build.usb_product="Megawin"
+MG32x02z_MG32F02U128_LQFP64_native.build.usb_manufacturer="Megawin Technology LLC"
+MG32x02z_MG32F02U128_LQFP64_native.build.board=MG32x02z_MG32F02U128_LQFP64_native
+MG32x02z_MG32F02U128_LQFP64_native.build.core=arduino
+MG32x02z_MG32F02U128_LQFP64_native.build.extra_flags=-mthumb -DMG32F02U128
+MG32x02z_MG32F02U128_LQFP64_native.build.ldscript=linker_scripts/gcc/MG32x02z_FLASH.LD
+MG32x02z_MG32F02U128_LQFP64_native.build.openocdscript=openocd_scripts/arduino_zero.cfg
+MG32x02z_MG32F02U128_LQFP64_native.build.variant=MG32F02U128_LQFP64
+MG32x02z_MG32F02U128_LQFP64_native.build.cmsis_lib_gcc=arm_cortexM0l_math
+MG32x02z_MG32F02U128_LQFP64_native.build.startup_file=-D{{build.system.path}/Drivers/CMSIS/Device/MG32F02U128/startup_MG32x02z_GCC.S
+MG32x02z_MG32F02U128_LQFP64_native.build.variant_system_lib=
+MG32x02z_MG32F02U128_LQFP64_native.build.vid=0x0E6A
+MG32x02z_MG32F02U128_LQFP64_native.build.pid=0x032F
+
+# arduino_zero_native.bootloader.tool=openocd
+# arduino_zero_native.bootloader.tool.default=openocd
+# arduino_zero_native.bootloader.file=zero/samd21_sam_ba.bin
+
+#MG32x02z_MG32F02U128_LQFP64_native.bootloader.tool=
+#MG32x02z_MG32F02U128_LQFP64_native.bootloader.tool.default=
+#MG32x02z_MG32F02U128_LQFP64_native.bootloader.file=
+# ================================================================================
+
+
+
+# Megawin MG32F02U128_LQFP80
+# ================================================================================
+MG32x02z_MG32F02U128_LQFP80_native.name=Megawin MG32F02U128_LQFP80
+
+MG32x02z_MG32F02U128_LQFP80_native.vid.0=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.pid.0=0x804e
+MG32x02z_MG32F02U128_LQFP80_native.vid.1=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.pid.1=0x004e
+MG32x02z_MG32F02U128_LQFP80_native.vid.2=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.pid.2=0x824e
+MG32x02z_MG32F02U128_LQFP80_native.vid.3=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.pid.3=0x024e
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.0.vid=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.0.pid=0x804e
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.1.vid=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.1.pid=0x004e
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.2.vid=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.2.pid=0x824e
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.3.vid=0x2341
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.3.pid=0x024e
+MG32x02z_MG32F02U128_LQFP80_native.upload_port.4.board=MG32F02U128_LQFP80
+
+MG32x02z_MG32F02U128_LQFP80_native.upload.tool=Megawin_ArduinoISP
+MG32x02z_MG32F02U128_LQFP80_native.upload.tool.default=Megawin_ArduinoISP
+MG32x02z_MG32F02U128_LQFP80_native.upload.tool.network=arduino_ota
+MG32x02z_MG32F02U128_LQFP80_native.upload.protocol=sam-ba
+MG32x02z_MG32F02U128_LQFP80_native.upload.maximum_size=260096
+MG32x02z_MG32F02U128_LQFP80_native.upload.maximum_data_size=32768
+
+#MG32x02z_MG32F02U128_LQFP80_native.upload.use_1200bps_touch=true
+#MG32x02z_MG32F02U128_LQFP80_native.upload.use_115200bps_touch=true
+
+MG32x02z_MG32F02U128_LQFP80_native.upload.wait_for_upload_port=true
+MG32x02z_MG32F02U128_LQFP80_native.upload.native_usb=true
+# ================================================================================
+
+MG32x02z_MG32F02U128_LQFP80_native.build.mcu=cortex-m0
+MG32x02z_MG32F02U128_LQFP80_native.build.emu.mcu=MG32F02U128
+MG32x02z_MG32F02U128_LQFP80_native.build.f_cpu=48000000L
+MG32x02z_MG32F02U128_LQFP80_native.build.usb_product="Megawin"
+MG32x02z_MG32F02U128_LQFP80_native.build.usb_manufacturer="Megawin Technology LLC"
+MG32x02z_MG32F02U128_LQFP80_native.build.board=MG32x02z_MG32F02U128_LQFP80_native
+MG32x02z_MG32F02U128_LQFP80_native.build.core=arduino
+MG32x02z_MG32F02U128_LQFP80_native.build.extra_flags=-mthumb -DMG32F02U128
+MG32x02z_MG32F02U128_LQFP80_native.build.ldscript=linker_scripts/gcc/MG32x02z_FLASH.LD
+MG32x02z_MG32F02U128_LQFP80_native.build.openocdscript=openocd_scripts/arduino_zero.cfg
+MG32x02z_MG32F02U128_LQFP80_native.build.variant=MG32F02U128_LQFP80
+MG32x02z_MG32F02U128_LQFP80_native.build.cmsis_lib_gcc=arm_cortexM0l_math
+MG32x02z_MG32F02U128_LQFP80_native.build.startup_file=-D{{build.system.path}/Drivers/CMSIS/Device/MG32F02U128/startup_MG32x02z_GCC.S
+MG32x02z_MG32F02U128_LQFP80_native.build.variant_system_lib=
+MG32x02z_MG32F02U128_LQFP80_native.build.vid=0x0E6A
+MG32x02z_MG32F02U128_LQFP80_native.build.pid=0x032F
+
+# arduino_zero_native.bootloader.tool=openocd
+# arduino_zero_native.bootloader.tool.default=openocd
+# arduino_zero_native.bootloader.file=zero/samd21_sam_ba.bin
+
+#MG32x02z_MG32F02U128_LQFP80_native.bootloader.tool=
+#MG32x02z_MG32F02U128_LQFP80_native.bootloader.tool.default=
+#MG32x02z_MG32F02U128_LQFP80_native.bootloader.file=
+# ================================================================================
+
+
+
+
+
