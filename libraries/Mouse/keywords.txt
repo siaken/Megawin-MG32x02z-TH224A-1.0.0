@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map Mouse
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+MouseCTR_TypeDef	   KEYWORD1
+MouseReport_TypeDef  KEYWORD1
+Mouse_	             KEYWORD1
+Mouse 	             KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin		   	  KEYWORD2
+end				    KEYWORD2
+click		  KEYWORD2
+move		  KEYWORD2
+press	  	KEYWORD2
+release		KEYWORD2
+isPressed	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+MOUSE_LEFT		LITERAL1
+MOUSE_RIGHT		LITERAL1
+MOUSE_MIDDLE	LITERAL1
+MOUSE_ALL	    LITERAL1
+

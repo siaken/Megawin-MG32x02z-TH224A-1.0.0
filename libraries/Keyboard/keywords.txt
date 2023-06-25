@@ -1,0 +1,27 @@
+#######################################
+# Syntax Coloring Map Keyboard
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+Keyboard_	             KEYWORD1
+Keyboard 	             KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin		   	  KEYWORD2
+end				    KEYWORD2
+write		  KEYWORD2
+press		  KEYWORD2
+release	  	KEYWORD2
+releaseAll		KEYWORD2
+
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
