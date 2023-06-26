@@ -375,7 +375,7 @@ uint32_t MID_I2C_GetInitTiming(I2C_HandleTypeDef *mI2C, uint32_t SCLClock)
     I2C_CLK_Config.Struct.Prescal = lI2C_PSC - 1;
     I2C_CLK_Config.Struct.Divider = lI2C_DIV_CNT;
     I2C_CLK_Config.Struct.LowTime = (lI2C_HT_LT >> 1) - 1;
-    I2C_CLK_Config.Struct.HighTime = (lI2C_HT_LT - (lI2C_HT_LT >> 1));
+    I2C_CLK_Config.Struct.HighTime = (lI2C_HT_LT - (lI2C_HT_LT >> 1)) - 1;
 
     return I2C_CLK_Config.W;
 }
